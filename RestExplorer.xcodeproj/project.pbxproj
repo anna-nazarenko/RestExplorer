@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95269B77276DF27700F74C8E /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95269B76276DF27700F74C8E /* Keys.swift */; };
 		952BCEBC276DF08F0025B687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952BCEBB276DF08F0025B687 /* Assets.xcassets */; };
 		9537C56A276CE31100A88021 /* RestaurantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537C569276CE31100A88021 /* RestaurantManager.swift */; };
 		9537C56C276CE71F00A88021 /* RestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537C56B276CE71F00A88021 /* RestaurantData.swift */; };
@@ -15,7 +16,6 @@
 		9537C572276D2C7200A88021 /* RestaurantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537C571276D2C7200A88021 /* RestaurantList.swift */; };
 		9537C574276D307900A88021 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537C573276D307900A88021 /* SearchBar.swift */; };
 		9537C576276D569900A88021 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537C575276D569900A88021 /* ImageLoader.swift */; };
-		9537C57E276D5AF600A88021 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537C57D276D5AF600A88021 /* APIKeys.swift */; };
 		953A09BD276B75D8002F8FA2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953A09BC276B75D8002F8FA2 /* DetailView.swift */; };
 		953A09BF276B75FA002F8FA2 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953A09BE276B75FA002F8FA2 /* ImageView.swift */; };
 		953A09C4276B7693002F8FA2 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953A09C3276B7693002F8FA2 /* PhotoManager.swift */; };
@@ -28,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95269B76276DF27700F74C8E /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		952BCEBB276DF08F0025B687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9537C569276CE31100A88021 /* RestaurantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantManager.swift; sourceTree = "<group>"; };
 		9537C56B276CE71F00A88021 /* RestaurantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantData.swift; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		9537C571276D2C7200A88021 /* RestaurantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantList.swift; sourceTree = "<group>"; };
 		9537C573276D307900A88021 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		9537C575276D569900A88021 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
-		9537C57D276D5AF600A88021 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 		953A09BC276B75D8002F8FA2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		953A09BE276B75FA002F8FA2 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		953A09C3276B7693002F8FA2 /* PhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
@@ -111,9 +111,9 @@
 				953A09C2276B7679002F8FA2 /* Models */,
 				956CB229276B752200C6DE31 /* Views */,
 				952BCEBB276DF08F0025B687 /* Assets.xcassets */,
+				95269B76276DF27700F74C8E /* Keys.swift */,
 				95BBE518276A40F70045C04F /* LaunchScreen.storyboard */,
 				95BBE51B276A40F70045C04F /* Info.plist */,
-				9537C57D276D5AF600A88021 /* APIKeys.swift */,
 				95BBE515276A40F70045C04F /* Preview Content */,
 			);
 			path = RestExplorer;
@@ -202,7 +202,7 @@
 				9537C574276D307900A88021 /* SearchBar.swift in Sources */,
 				9537C572276D2C7200A88021 /* RestaurantList.swift in Sources */,
 				953A09BF276B75FA002F8FA2 /* ImageView.swift in Sources */,
-				9537C57E276D5AF600A88021 /* APIKeys.swift in Sources */,
+				95269B77276DF27700F74C8E /* Keys.swift in Sources */,
 				953A09C8276B76CA002F8FA2 /* PhotoData.swift in Sources */,
 				9537C56E276D233700A88021 /* CategoryRow.swift in Sources */,
 				95BBE50E276A40F60045C04F /* AppDelegate.swift in Sources */,

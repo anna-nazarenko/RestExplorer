@@ -14,7 +14,7 @@ class RestaurantManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     @Published var restaurants = [Restaurant]()
     @Published var lastLocation = CLLocationCoordinate2D()
     private let locationManager = CLLocationManager()
-    private let keys = APIKeys()
+    private let keys = Keys()
     
     override init() {
         super.init()
