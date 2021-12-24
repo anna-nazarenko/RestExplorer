@@ -12,7 +12,7 @@ import CoreLocation
 class RestaurantManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     
     @Published var restaurants = [Restaurant]()
-    @Published var lastLocation = CLLocationCoordinate2D()
+    @Published var lastLocation = CLLocationCoordinate2D(latitude: 49.842957, longitude: 24.031111)
     private let locationManager = CLLocationManager()
     private let keys = Keys()
     
@@ -32,6 +32,7 @@ class RestaurantManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("Error with getting location data: \(error)")
+        fetchRestaurants(coordinates: lastLocation)
     }
     
     func fetchRestaurants(coordinates: CLLocationCoordinate2D) {
