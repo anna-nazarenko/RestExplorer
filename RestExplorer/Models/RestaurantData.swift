@@ -28,6 +28,6 @@ struct Category: Codable, Identifiable, Hashable {
 }
 
 struct Location: Codable {
-    let address: String
-    let locality: String
+    let address: String?
+    let locality: String?
 }

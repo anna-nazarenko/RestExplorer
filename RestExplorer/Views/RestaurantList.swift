@@ -18,7 +18,10 @@ struct RestaurantList: View {
                     Text(restaurant.name)
                         .font(.title)
                     Text(restaurant.categories[0].name)
-                    Text("\(restaurant.location.address), \(restaurant.location.locality)")
+                    
+                  if let address = restaurant.location.address, let locality = restaurant.location.locality {
+                    Text("\(address), \(locality)")
+                  }
                 }
             }
         }
